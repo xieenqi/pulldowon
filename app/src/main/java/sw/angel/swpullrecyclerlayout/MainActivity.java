@@ -55,7 +55,7 @@ public class MainActivity extends Activity implements OnTouchUpListener {
                 recycler.setIsScrollRefresh(false);
                 recycler.setScrollTo(recycler.getTotal(), 0);
             }
-        }, 2000);
+        }, 1000);
     }
 
     @Override
@@ -68,6 +68,6 @@ public class MainActivity extends Activity implements OnTouchUpListener {
                 recycler.setIsScrollLoad(false);
                 recycler.setScrollTo(recycler.getTotal(), 0);
             }
-        }, 2000);
+        }, 1000);
     }
 }

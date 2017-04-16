@@ -12,7 +12,7 @@ import com.angel.adapter.SWRecyclerAdapter;
 import com.angel.interfaces.OnTouchUpListener;
 
 /**
- * Created by Angel on 2016/7/27.
+
  */
 public class SWPullRecyclerLayout extends LinearLayout implements NestedScrollingParent {
 
